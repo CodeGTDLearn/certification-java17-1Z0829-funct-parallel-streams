@@ -63,7 +63,6 @@ public class Parall_Stream_Create {
            .forEachOrdered((s) -> System.out.print(s + " "));
 
 
-    //  Create parallel stream from integerList using parallelStream() method
     System.out.println("----- Using stateful lambda expression -----");
       List<Integer> unsynchList = new ArrayList<>();
     for (int i = 0; i < 3; i++) {
