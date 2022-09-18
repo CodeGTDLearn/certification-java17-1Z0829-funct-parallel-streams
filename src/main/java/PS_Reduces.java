@@ -5,7 +5,7 @@ import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class P_Stream_Reduces {
+public class PS_Reduces {
   public static void main(String[] args) {
 
     int tests = 10;

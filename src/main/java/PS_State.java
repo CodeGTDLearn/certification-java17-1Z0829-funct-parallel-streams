@@ -1,10 +1,12 @@
+import datasource.IntegerProvider;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class P_Stream_State {
+public class PS_State {
   public static void main(String[] args) {
 
-    List<Integer> stateFullList = DataProvider.getData();
+    List<Integer> stateFullList = IntegerProvider.getData();
     var CYCLES = 3;
 
     System.out.println("Serial Stream: External Lambda Change");

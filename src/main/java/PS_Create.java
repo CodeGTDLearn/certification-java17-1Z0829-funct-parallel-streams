@@ -1,9 +1,11 @@
+import datasource.IntegerProvider;
+
 import java.util.List;
 
-public class P_Stream_Create {
+public class PS_Create {
   public static void main(String[] args) {
 
-    List<Integer> list = DataProvider.getData();
+    List<Integer> list = IntegerProvider.getData();
     var CYCLES = 2;
 
     System.out.println("\nSerial Stream");

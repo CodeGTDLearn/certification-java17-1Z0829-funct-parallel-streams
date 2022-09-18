@@ -1,9 +1,11 @@
+package datasource;
+
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class DataProvider {
-  static List<Integer> getData() {
+public class IntegerProvider {
+  public static List<Integer> getData() {
 
     List<Integer> integerList =
          Stream

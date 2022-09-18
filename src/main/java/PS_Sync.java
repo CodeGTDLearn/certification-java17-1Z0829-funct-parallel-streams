@@ -1,11 +1,13 @@
+import datasource.IntegerProvider;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class P_Stream_Sync {
+public class PS_Sync {
   public static void main(String[] args) {
 
-    List<Integer> stateFullList = DataProvider.getData();
+    List<Integer> stateFullList = IntegerProvider.getData();
     var CYCLES = 3;
 
     System.out.println("Non-Thread-Safe Simple Collection");
