@@ -1,3 +1,5 @@
+package collect;
+
 import entity.Person;
 
 import java.util.List;
@@ -7,7 +9,7 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class PS_Collections {
+public class PS_Collect {
   public static void main(String[] args) {
 
     Collector c1 =
@@ -72,8 +74,6 @@ public class PS_Collections {
 
   }
 
-  // Method tests groupingBy and groupingByConcurrent and e
-  // prints out time elapsed
   static void testGroupingBy(Set<Person> list) {
 
     long start = getMs();
